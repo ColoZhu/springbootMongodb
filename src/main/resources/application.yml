@@ -1,5 +1,5 @@
 server:
-  port: 8894
+  port: 8888
   servlet:
     #    # 项目contextPath
     context-path: /mongodb
@@ -11,8 +11,17 @@ spring:
   data:
     mongodb:
       #uri: mongodb://localhost:27017
-      uri: mongodb://129.28.177.161:27017
-      database: admin
+      #uri: mongodb://129.28.177.161:27017
+      uri: mongodb://admin:123456@129.28.177.161:27017/admin
+      #database: admin
+#      host: 129.28.177.161
+#      port: 27017
+#      username: admin
+#      password: 123456
+#      database: admin
+
+
+
 
 #设置静态资源路径，多个以逗号分隔
 spring.resources.static-locations: classpath:static/,file:static/
@@ -23,4 +32,5 @@ logging:
     czs: debug
     org.springframework: WARN
     org.spring.springboot.dao: debug
-
+    #mongodb日志
+    org.springframework.data.mongodb.core: DEBUG
