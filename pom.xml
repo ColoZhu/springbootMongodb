@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>czs</groupId>
-    <artifactId>springboot-demo</artifactId>
+    <artifactId>springboot-mongodb</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>springbootDemo</name>
+    <name>springbootMongodb</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -81,13 +81,6 @@
             <version>1.2.62</version>
         </dependency>
 
-        <!-- 阿里开源EXCEL -->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>easyexcel</artifactId>
-            <!-- <version>1.1.1</version>-->
-            <version>2.1.6</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
