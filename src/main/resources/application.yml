@@ -11,14 +11,9 @@ spring:
   data:
     mongodb:
       #uri: mongodb://localhost:27017
-      #uri: mongodb://129.28.177.161:27017
+      #账号+密码+数据库
       uri: mongodb://admin:123456@129.28.177.161:27017/admin
-      #database: admin
-#      host: 129.28.177.161
-#      port: 27017
-#      username: admin
-#      password: 123456
-#      database: admin
+
 
 
 
