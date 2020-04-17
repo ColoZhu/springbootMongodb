@@ -34,7 +34,7 @@ public class UserService {
         userRepository.deleteUserById(id);
     }
 
-    //修改, 如果用MongodbRepository的save这个方法没法修改,走的还是insert, 因为检查了@version的属性版本号,这里使用Mongotemplate的方法
+    //修改,
     public void update(User user) {
         userRepository.updateUser(user);
     }
